@@ -33,7 +33,7 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t ramyaacr.azurecr.io/navii:latest .
+        docker build -t container011.azurecr.io/navii:latest .
         docker push container011.azurecr.io/navii:latest
 
     - name: Deploy to AKS
